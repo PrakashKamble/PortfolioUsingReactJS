@@ -1,0 +1,21 @@
+/* footer.css */
+
+/* Default styles */
+.footer-container {
+    padding: 1.5rem 0; /* Set default padding */
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    /* Adjust padding for smaller screens */
+    .footer-container {
+      padding: 1rem 0;
+      text-align: center; /* Center align text */
+    }
+  
+    /* Adjust margin for smaller screens */
+    .footer-container > div {
+      margin-bottom: 1rem;
+    }
+  }
+  

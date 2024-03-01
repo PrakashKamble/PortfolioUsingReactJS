@@ -1,0 +1,30 @@
+/* services.css */
+
+/* Default styles */
+.main-container {
+    padding: 2rem; /* Set default padding */
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    /* Adjust padding for smaller screens */
+    .main-container {
+      padding: 1rem;
+    }
+  
+    /* Adjust flex direction for smaller screens */
+    .services-container {
+      flex-direction: column;
+    }
+  
+    /* Adjust margin for smaller screens */
+    .services-container > div {
+      margin-bottom: 1rem;
+    }
+  
+    /* Adjust width for smaller screens */
+    .services-container > div {
+      width: 100%;
+    }
+  }
+  

@@ -1,5 +1,6 @@
 import React from "react";
 import BannerBackground from "../assets/banner_wallpaper.svg";
+import "./expertise.css"
 
 const Expertise = () => {
   return (

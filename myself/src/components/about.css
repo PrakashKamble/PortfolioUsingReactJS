@@ -1,0 +1,35 @@
+/* about.css */
+
+/* Default styles */
+.main-container {
+    padding-top: 5rem; /* Set default padding top */
+    padding-bottom: 5rem; /* Set default padding bottom */
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    /* Adjust padding for smaller screens */
+    .main-container {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+    }
+  
+    /* Adjust image size for smaller screens */
+    .main-container img {
+      height: auto; /* Allow image to scale */
+      max-width: 100%; /* Ensure image fits within container */
+      width: 80%; /* Set image width to 80% of container */
+      margin: 0 auto; /* Center image */
+      display: block; /* Ensure image is centered */
+    }
+  
+    /* Adjust text size for smaller screens */
+    .main-container h1 {
+      font-size: 2rem;
+    }
+  
+    .main-container .space-y-7 p {
+      font-size: 0.9rem;
+    }
+  }
+  

@@ -1,0 +1,31 @@
+/* header.css */
+
+/* Default styles */
+.h-20 {
+  height: 5rem; /* Set default height */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  /* Adjust header height for smaller screens */
+  .h-20 {
+    height: auto;
+    padding: 1rem 0; /* Add padding instead of fixed height */
+  }
+
+  /* Adjust logo size for smaller screens */
+  .h-20 h1 {
+    font-size: 1.5rem;
+  }
+
+  /* Adjust spacing for smaller screens */
+  .space-x-6 {
+    margin-right: 0.5rem; /* Reduce space between menu links */
+  }
+
+  /* Adjust action button size for smaller screens */
+  .h-20 .rounded-full {
+    padding: 0.5rem 1rem; /* Adjust padding */
+    font-size: 0.8rem; /* Adjust font size */
+  }
+}

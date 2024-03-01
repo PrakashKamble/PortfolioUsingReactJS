@@ -1,0 +1,33 @@
+/* expertise.css */
+
+/* Default styles */
+.main-container {
+    padding: 5rem 0; /* Set default padding */
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    /* Adjust padding for smaller screens */
+    .main-container {
+      padding: 3rem 0;
+    }
+  
+    /* Adjust text alignment for smaller screens */
+    .box-container > div {
+      text-align: center;
+    }
+  
+    /* Adjust download button size for smaller screens */
+    .download-button {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+    }
+  
+    /* Adjust skill box size for smaller screens */
+    .skill {
+      margin: 0.5rem; /* Add spacing between skills */
+      padding: 0.5rem 1rem; /* Adjust padding */
+      font-size: 0.8rem; /* Adjust font size */
+    }
+  }
+  

@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Prakash from "../assets/Prakash.jpg";
 import BannerBackground from "../assets/banner_wallpaper.svg";
 import Typed from "typed.js";
+import "./banner.css"
 
 const BannerSection = () => {
   const el = useRef(null);
@@ -53,10 +54,11 @@ const BannerSection = () => {
               style={{ marginTop: "25px" }}
             >
               <a
-                href="https://www.facebook.com/"
+                href="https://github.com/PrakashKamble?tab=repositories"
                 className="hover:bg-orange-400 w-10 h-10 rounded-full flex justify-center items-center bg-gray-800"
               >
-                <i class="fa-brands text-2xl  fa-facebook"></i>
+                {/* <i class="fa-brands   fa-facebook"></i> */}
+                <i class="fa-brands text-2xl fa-github"></i>
               </a>
 
               <a

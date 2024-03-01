@@ -1,0 +1,30 @@
+/* bannersection.css */
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    /* Adjust text size for smaller screens */
+    .main-container h1 {
+      font-size: 2.5rem;
+    }
+  
+    .main-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    .main-container p {
+      font-size: 0.9rem;
+    }
+  
+    /* Adjust icon size for smaller screens */
+    .main-container .icon-link {
+      width: 2rem;
+      height: 2rem;
+    }
+  
+    /* Adjust action button size for smaller screens */
+    .main-container .action-button {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+    }
+  }
+  

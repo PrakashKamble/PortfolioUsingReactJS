@@ -1,4 +1,5 @@
 import React from "react";
+import "./about.css"
 import bannerImage from "../assets/MyInternship.png";
 const About = () => {
   return (

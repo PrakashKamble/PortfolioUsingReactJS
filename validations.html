@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" onsubmit="validate()">
+
+        <label for="">Name</label>
+
+        <input type="text" id="name"><br>
+        <span id="ename" style="color: red;"></span><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+
+
+    <script>
+        function validate() {
+            var name = document.getElementById('name').value;
+            var pt = /[A-Za-z]/;
+
+            if (name == "") {
+                document.getElementById('ename').innerHTML = "name cannot be empty";
+                event.preventDefault();
+                return false
+            }
+        }
+
+    </script>
+    </form>
+</body>
+
+</html>
